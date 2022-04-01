@@ -1,0 +1,19 @@
+.logout-wrapper {
+  width: 25rem;
+  padding: 2rem;
+  gap: 1rem;
+  background-color: var(--white-color);
+}
+
+.logout-position {
+  height: calc(100vh - 5rem);
+}
+
+.profile-user-details > p {
+  padding: 0.5rem 1rem;
+}
+
+.profile-user-details span {
+  padding-right: 0.5rem;
+  font-weight: 700;
+}

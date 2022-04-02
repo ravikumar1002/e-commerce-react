@@ -6,7 +6,7 @@ const ProductShowCaseCard = ({ showCaseProducts }) => {
       {showCaseProducts.map((item) => {
         return (
           <Link 
-            to="/ProductsPage"
+            to="/productspage"
             className="card-body-md card-horizontal-md home-product-card"
             key={item._id}
           >

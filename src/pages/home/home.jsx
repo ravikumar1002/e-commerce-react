@@ -26,7 +26,7 @@ const Home = () => {
             </div>
             <div className="flex-center">
                 <button>
-                    <Link to="/productsPage" className="btn btn-primary btn-md">
+                    <Link to="/productspage" className="btn btn-primary btn-md">
                         See More Product
                     </Link>
                 </button>

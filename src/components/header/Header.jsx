@@ -31,14 +31,24 @@ const Header = () => {
             <nav className="nav-action-btns">
                 <ul className="horizontal-align-centre nav-text-primary">
                     <li className="list-style-none">
-                        <button onClick={() => {
+                        {/* <button onClick={() => {
                             navigate("/signup")
-
                         }}>
                             <span className="btn btn-secondary btn-sm border-squre">
                                 signUp
                             </span>
+                        </button> */}
+                        <button>
+                            <Link
+                                to="/signup"
+                                className="nav-btn-primary nav-text-primary "
+                            >
+                                 <span className="btn btn-secondary btn-sm border-squre">
+                                signUp
+                            </span>
+                            </Link>
                         </button>
+
                     </li>
                     <li className="list-style-none">
                         <button>

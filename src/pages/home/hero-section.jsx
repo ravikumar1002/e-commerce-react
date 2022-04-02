@@ -15,10 +15,10 @@ const HeroSection = () => {
             {heroItem.map((item) => {
                 return (
                     <div className="home-main-img" key={item.id}>
-                        <Link to="/ProductsPage">
+                        <Link to="/productspage">
                             <img
                                 src={item.imgsource}
-                                className="img-responsive."
+                                className="img-responsive"
                                 alt={item.imgAlt}
                             />
                         </Link>

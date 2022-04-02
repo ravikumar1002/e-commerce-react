@@ -18,7 +18,7 @@ const HeroSection = () => {
                         <Link to="/productspage">
                             <img
                                 src={item.imgsource}
-                                className="img-responsive"
+                                // className="img-responsive."
                                 alt={item.imgAlt}
                             />
                         </Link>

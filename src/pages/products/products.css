@@ -1,6 +1,6 @@
 .product-items-container {
   padding: 2rem;
-  width: 80%;
+  width: fit-content;
 }
 
 .product-items {

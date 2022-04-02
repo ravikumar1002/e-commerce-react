@@ -1,4 +1,5 @@
 
+
 import { categories } from "../../../backend/db/categories";
 const CategoryFilter = ({ filteredApplyItemState, filteredApplyItemDispatch}) => {
     return (

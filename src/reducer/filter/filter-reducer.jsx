@@ -1,3 +1,4 @@
+
 const filterReducer = (state, action) => {
     const { ratings, sortBy, item, range, activeCategory } = state;
 

@@ -20,6 +20,11 @@
   width: 90%;
 }
 
+.home-product-card{
+  color: black;
+  text-decoration: none;
+}
+
 .home-product-card-container {
   display: flex;
   justify-content: center;
@@ -27,6 +32,7 @@
   padding: 2rem;
   gap: 2rem;
   flex-wrap: wrap;
+
 }
 
 .page-bottom-margin {

@@ -1,18 +1,21 @@
-import { products } from "../../backend/db/products";
-import PriceProductCard from "../../utility/price-products-list";
+
+import { useContext } from "react";
+import PriceProductCard from "./price-products-list";
+import { productsDataContext } from "../../context/products-context/products-data";
 
 const ProductsListShow = () => {
-    const showProductsItems = [...products];
+
+    const { filteredApplyItemState } = useContext(productsDataContext)
+    const { filteredItem } = filteredApplyItemState
 
     return (
         <div className="product-items-container">
             <div className="flex-align-centre py-2">
                 <h2>Showing All Product</h2>
-                <span> </span>
-                <p>(showing 20 products)</p>
+                <p className="pl-2">{` showing ${filteredItem.length} products`}</p>
             </div>
             <div className="product-items">
-                <PriceProductCard productsData={showProductsItems} />
+                <PriceProductCard productsData={filteredItem} />
             </div>
         </div>
     );
